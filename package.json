@@ -1,0 +1,21 @@
+{
+  "name": "test-ioredis",
+  "version": "0.0.1",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "server": "redis-server /usr/local/etc/redis.conf",
+    "start": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "adze": "^2.2.2",
+    "ioredis": "^5.6.1"
+  }
+}
