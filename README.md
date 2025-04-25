@@ -1,5 +1,15 @@
 # test-ioredis
 
+* https://adzejs.com/reference/modifiers.html#withemoji
+
+## features
+
+* logger
+* redis client (ioredis)
+
+
+# build
+
 To install dependencies:
 
 ```bash
