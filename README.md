@@ -2,9 +2,11 @@
 
 * https://adzejs.com/reference/modifiers.html#withemoji
 
+* https://www.npmjs.com/package/ioredis
+
 ## features
 
-* logger
+* logger (adze)
 * redis client (ioredis)
 
 
@@ -23,3 +25,9 @@ bun run index.ts
 ```
 
 This project was created using `bun init` in bun v1.1.20. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+
+
+## you can use redis from bun too
+
+https://bun.sh/docs/api/redis
+
